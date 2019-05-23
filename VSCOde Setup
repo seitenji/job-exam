@@ -1,0 +1,14 @@
+Settings
+File > Preference > Settings > [Search] Terminal > "Terminal > Integrated > Shell: Windows" -> C:\Program Files\\Git\\bin\\bash.exe
+
+Extensions
+Emmet
+Bracket Pair Colorizer
+Live Server
+vscode-icons
+vscode-faker
+prettier
+javascript (es6)
+React-Native/React/Redux snippets for es6/es7
+W3C Validation
+

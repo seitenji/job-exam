@@ -1,0 +1,70 @@
+1. Color Variable
+2. Reset 
+3. Body
+4. Ul
+5. heading
+6. a
+7. p
+8. img
+9. button
+10. input
+11. media query
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: #333;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+p {
+    margin 0.8rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* buttons */
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.4rem 1.4rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2px
+    margin-right: 0.4rem;
+}
+
+@media only screen and (max-width) {
+    
+}

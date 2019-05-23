@@ -1,0 +1,65 @@
+0. Begin your HTML email document with an XHTML doctype:
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Demystifying Email Design</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+</html>
+
+1. Creating the Body and Main Table
+    -Starting with a <body> tag reset the html <body style="margin:0; padding:0;">
+    -Add a table with a width of 100%, also reset cellpadding and cellspacing to zero, <table border="1" cellpadding="0" cellspacing="0" width="0">
+    -Place a centered table of 600 pixels wide inside the container table. 600 pixels is a safe maximum width. <table align="center" valign="top" border="1" cellpadding="0" cellspacing="0" width="600"
+
+2. Creating the structure and header
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="600">
+ <tr>
+  <td bgcolor="#70bbd9">
+   Row 1
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor="#ffffff">
+   Row 2
+  </td>
+ </tr>
+ <tr>
+  <td bgcolor="#ee4c50">
+   Row 3
+  </td>
+ </tr>
+</table>
+
+2.1 Using padding
+    -Use padding on TD tags <td style="padding: 10px 10px 8px 5px;">
+    -Or use empty empty cells to create space.  <tr><td style="font-size: 0; line-height: 0;" height="10">&nbsp;</td></tr>
+
+<td align="center" bgcolor="#70bbd9" style="padding: 40px 0 30px 0;">
+ <img src="images/h1.gif" alt="Creating Email Magic" width="300" height="230" style="display: block;" />
+</td>
+
+3. Creating the Content Area
+
+<td bgcolor="#ffffff" style="padding: 40px 30px 40px 30px;">
+ <table border="1" cellpadding="0" cellspacing="0" width="100%">
+ <tr>
+  <td>
+   Lorem ipsum dolor sit amet!
+  </td>
+ </tr>
+ <tr>
+  <td style="padding: 20px 0 30px 0;">
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+  </td>
+ </tr>
+ <tr>
+  <td>
+   Row 3
+  </td>
+ </tr>
+</table>
+</td>

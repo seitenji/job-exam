@@ -1,0 +1,30 @@
+HTML Email Basics
+1. Best Practices: Design
+    -Emails should be 600x800 pixels maximum.
+    -Design for simplicity. Use grid-based layers and avoid complicated elements that require the use of HTML floats.
+    -Use basic font-family.
+    -No JavaScript. GIF instead.
+2. Best Practices: Development
+    -Code all structure using TABLE element. For more complicated layoputs, you should nest tables to build complex structures.
+    -Use element attributes(such as cellpadding, valign, and width) to set table dimensions. This forces a box-model structure.
+    -Keep your CSS simple. Avoid compound style declaration, shorthand code, CSS layout properties, CSS selectors.
+    -Inline all CSS.
+    -No JavaScript.
+
+Responsive Email
+    -The media query's styles are nested within the emails <style> tag.
+    -It's necessary for every media query style rule your write needs to be marked with a !important declaration.
+
+CSS 
+    -Use CSS2.1
+    -CSS must be inlined within your HTML document.
+    -Simple CSS.
+
+HTML
+    -For finer control of your HTML, try nesting <table> elements when building emails.
+    -Current best practices dictate that emails should be around 600px in width, and we've found that 800px is a workable upper limit. 
+    -HTML attributes, border, cellpadding, cellspacing, width, align and valign are supported in all email clients, making them ideal for settip up some baseline styling before you get into CSS.
+
+Email Client CSS Support 
+    -https://templates.mailchimp.com/resources/email-client-css-support/
+    

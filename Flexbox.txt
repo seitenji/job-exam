@@ -1,0 +1,8 @@
+.class {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-content: center; flex-end;
+    justify-content: center; flex-start
+    flex-wrap: wrap;
+}

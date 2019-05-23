@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+body {
+  background-color: rgba(218, 34, 255, 0.1);
+}
+
+#wrapper {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+.sub-title p {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.form-container {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 1.5rem rgba(0, 0, 0, 0.1);
+  padding: 1rem 1.3rem;
+}
+
+.input-group p,
+.input-group input {
+  margin-top: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.3rem 0;
+}
+
+.input-group select {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.3rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  #wrapper {
+    width: 65%;
+  }
+
+  .input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .myText {
+    text-align: right;
+    margin-right: 1rem;
+  }
+
+  .input-group input {
+    max-width: 60%;
+  }
+
+  .input-group select {
+    max-width: 60%;
+    margin-top: 0.8 rem;
+  }
+
+  .input-group input[type="radio"],
+  .input-group input[type="checkbox"] {
+    width: initial;
+  }
+}

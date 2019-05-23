@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px 10px;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 1fr;
+    justify-content: center;
+}
+
+.grid-item {
+    grid-column: 1/5;
+}
+
+
+
+
+

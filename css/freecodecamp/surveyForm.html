@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FCC: Survey Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="title">
+        <h1>Survey Form</h1>
+      </div>
+      <div class="form-container">
+        <div class="sub-title">
+          <p>Let us know how we can improve freeCodeCamp</p>
+        </div>
+        <form action="" id="form1">
+          <div class="input-group">
+            <p class="myText">* Name:</p>
+            <input type="text" placeholder="Enter your name" />
+          </div>
+          <div class="input-group">
+            <p class="myText">* Email:</p>
+            <input type="email" placeholder="Enter your Email" />
+          </div>
+          <div class="input-group">
+            <p class="myText">* Age:</p>
+            <input type="number" placeholder="Age" min="5" max="120" />
+          </div>
+          <div class="input-group">
+            <p class="myText">Which option best describes your current role?</p>
+            <select name="role" id="role">
+              <option value="student">Student</option>
+              <option value="full-time-job">Full Time Job</option>
+              <option value="full-time-learner">Full Time Learner</option>
+              <option value="not-say">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <p class="myText">
+              * How likely is that you would recommend freeCodeCamp to a friend?
+            </p>
+            <div class="radio-group">
+              <input
+                type="radio"
+                name="recommend"
+                value="definitely"
+              />Definitely <br />
+              <input type="radio" name="recommend" value="maybe" />Maybe <br />
+              <input type="radio" name="recommend" value="not-sure" />Not sure
+              <br />
+            </div>
+          </div>
+          <div class="input-group">
+            <p class="myText">What do you like most in FCC:</p>
+            <select name="like" id="like">
+              <option value="challenge">Challenges</option>
+              <option value="project">Projects</option>
+              <option value="community">Community</option>
+              <option value="open-source">Open Source</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <p class="myText">
+              Things that should be improved in the future(Check all that
+              apply):
+            </p>
+            <div class="check-group">
+              <input
+                type="checkbox"
+                name="improve"
+                value="front-end"
+              />Front-end Projects <br />
+              <input type="checkbox" name="improve" value="back-end" />Back-end
+              Projects <br />
+              <input type="checkbox" name="improve" value="data" />Data
+              Visualization <br />
+              <input
+                type="checkbox"
+                name="improve"
+                value="challenge"
+              />Challenges
+              <br />
+              <input type="checkbox" name="improve" value="open-source" />Open
+              Source Community <br />
+              <input type="checkbox" name="improve" value="gitter" />Gitter help
+              rooms <br />
+              <input type="checkbox" name="improve" value="video" />Videos
+              <br />
+              <input type="checkbox" name="improve" value="city" />City Meetups
+              <br />
+              <input type="checkbox" name="improve" value="wiki" />Wiki <br />
+              <input type="checkbox" name="improve" value="forum" />Forum <br />
+              <input
+                type="checkbox"
+                name="improve"
+                value="additional"
+              />additional Courses <br />
+            </div>
+          </div>
+        </form>
+        <div class="input-group">
+          <p class="myText">Any Comments or Suggestions?</p>
+          <textarea name="comment" id="form1" cols="30" rows="10">
+Enter your comment here...</textarea
+          >
+        </div>
+        <div class="input-group">
+          <button class="btn" type="submit" form="form1">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
