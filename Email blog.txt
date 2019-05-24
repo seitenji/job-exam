@@ -1,0 +1,17 @@
+CSS Typography
+color, font-family, font-size, font-weight, and line-height.
+https://litmus.com/blog/typography-tips-for-email-designers
+https://litmus.com/blog/the-ultimate-guide-to-web-fonts
+
+UX
+https://litmus.com/blog/ultimate-guide-accessible-emails
+https://litmus.com/blog/the-trends-strategies-that-will-shape-your-email-program-in-2019-webinar-recording-qa
+
+Framework
+https://mjml.io/
+
+CSS Animation
+https://litmus.com/blog/interactive-email-for-beginners-6-interactive-elements-you-can-add-to-your-emails-today
+
+CSS
+https://litmus.com/blog/understanding-gmail-and-css-part-2

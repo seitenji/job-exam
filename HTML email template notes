@@ -63,3 +63,28 @@
  </tr>
 </table>
 </td>
+
+<style type="text/css">
+  @media only screen and (max-width: 600px) {
+    .responsive-table {
+      display: block;
+      width: 100% !important;
+    }
+
+    .responsive-image {
+      height: 100%;
+      max-width: 100% !important;
+    }
+  }
+</style>
+
+<td align="center" style="background-image: url('http://path.to/image.png'); background-repeat: no-repeat; background-position: top center; background-size: cover; background-color: gold;"></td>
+style="background: url('../img/bg.jpg') blue no-repeat cover;
+
+ <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+            <tr>
+            <td align="center" valign="top" width="600">
+            <![endif]-->
+
+            <img alt="Example" src="http://placehold.it/600x300" width="600" style="display: block; width: 100%; max-width: 100%;" border="0">

@@ -1,6 +1,6 @@
 HTML Email Basics
 1. Best Practices: Design
-    -Emails should be 600x800 pixels maximum.
+    -Emails should be 600-800 pixels maximum.
     -Design for simplicity. Use grid-based layers and avoid complicated elements that require the use of HTML floats.
     -Use basic font-family.
     -No JavaScript. GIF instead.
