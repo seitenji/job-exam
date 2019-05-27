@@ -11,7 +11,7 @@
 
 1. Creating the Body and Main Table
     -Starting with a <body> tag reset the html <body style="margin:0; padding:0;">
-    -Add a table with a width of 100%, also reset cellpadding and cellspacing to zero, <table border="1" cellpadding="0" cellspacing="0" width="0">
+    -Add a table with a width of 100%, also reset cellpadding and cellspacing to zero, <table border="1" cellpadding="0" cellspacing="0" width="100%">
     -Place a centered table of 600 pixels wide inside the container table. 600 pixels is a safe maximum width. <table align="center" valign="top" border="1" cellpadding="0" cellspacing="0" width="600"
 
 2. Creating the structure and header
